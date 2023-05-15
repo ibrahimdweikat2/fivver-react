@@ -1,0 +1,83 @@
+.add{
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-top: 70px;
+        
+        .left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h1{
+                margin-top: -50px;
+                color: #555;
+                font-weight: 300;
+            }
+            label{
+                font-weight: 500;
+                color: #555;
+            }
+            input{
+                height: 40px;
+            }
+            select{
+                height: 40px;
+            }
+            textarea{
+                height: 200px;
+                border-radius: 5px;
+                border-color: #999;
+            }
+            .image{
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+                .item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    margin-bottom: 20px;
+                    label{
+                        font-weight: 500;
+                        color: #555;
+                    }
+                    input{
+                        margin-top: 20px;
+                        padding-left: 20px;
+                    }
+                }
+            }
+            button{
+                padding: 10px 20px;
+                background-color: #1dbf78;
+                border: none;
+                color: white;
+                cursor: pointer ;
+                border-radius: 5px;
+            }
+        }
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            label{
+                font-weight: 500;
+                color: #555;
+            }
+            input{
+                height: 40px;
+            }
+            textarea{
+                height: 200px;
+                border-radius: 5px;
+                border-color: #999;
+            }
+        }
+    }
+}

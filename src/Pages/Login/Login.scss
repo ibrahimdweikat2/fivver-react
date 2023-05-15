@@ -1,0 +1,29 @@
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    h1{
+        font-weight: 600;
+        color: #555;
+    }
+    .sign{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input{
+            height: 40px;
+            width: 150%;
+        }
+        button{
+            width: 150%;
+            padding: 10px 20px;
+            background-color: #1dbf78;
+            border: none;
+            color: white;
+        }
+    }
+}

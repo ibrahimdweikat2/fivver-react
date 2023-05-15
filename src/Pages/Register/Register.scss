@@ -1,0 +1,63 @@
+.register{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .container{
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        h1{
+            font-weight: 500;
+            color: #555;
+        }
+        .left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            label{
+                font-weight: 300;
+                color: #555;
+            }
+            input{
+                height: 50px;
+                border: 0.5px solid lightgray;
+            }
+            .file{
+                padding: 15px;
+            }
+            button{
+                padding: 10px 20px;
+                border: 0.5px solid #1dbf78;
+                background-color: #1dbf78;
+                color: white;
+                cursor: pointer;
+            }
+        }
+        .right{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            gap: 45px;
+            .switch{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                color: #555;
+            }
+            label{
+                font-weight: 300;
+                color: #555;
+            }
+            input{
+                height: 50px;
+                border: 0.5px solid lightgray;
+            }
+            textarea{
+                height: 150px;
+            }
+        }
+    }
+}

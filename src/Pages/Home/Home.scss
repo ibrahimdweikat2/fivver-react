@@ -1,0 +1,93 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    .container{
+        width: 1400px;
+        .carousel-prev,.carousel-next{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: rgb(226, 225, 225);
+        }
+        .carousel-next{
+            right: 25px;
+        }
+    }
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #f1fdf7 ;
+
+    &.dark{
+        background-color: #0d084d;
+
+        img{
+            width: 100%;
+        }
+        h1{
+            color: white !important;
+        }
+        p{
+            color: white !important;;
+        }
+        .title{
+            gap: 10px !important;
+            color: white !important;
+            font-weight: 300 !important;
+            font-size: 14px !important;
+        }
+        button{
+            background-color: #1dbf78;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+    }
+    .container{
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        gap: 200px;
+        .item{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+            &:first-child{
+                flex: 2;
+            }
+            &:last-child{
+                flex: 3;
+            }
+            
+            .title{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            p{
+                font-weight: 300;
+                font-size: 18px;
+                color: gray;
+                line-height: 30px;
+            }
+            video{
+                width: 720px;
+            }
+        }
+    }
+}
